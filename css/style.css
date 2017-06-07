@@ -1,0 +1,22 @@
+body{
+    background-color: pink;
+    ;
+}
+table{
+    border:1px black solid;
+    width:400px;
+    height: 300px;
+}
+.detete{
+    padding-left:600px;
+    padding-top:20px ;
+}
+
+.update{
+    padding-left:800px;
+    margin-top: -20px;
+}
+
+.deconnexion {
+    margin: 900px;
+}
