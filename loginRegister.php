@@ -1,23 +1,33 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <title>Home Project</title>
+</head>
+<body>
+  
+
+
+
 
 <?php ?>
-<h2>Connexion</h2>
-<form method="post" action="connect/login.php">
-  <label for="username">Utilisateur : </label>
-  <input type="text" name="username" id="username" required="true">
+ <div id="login">
+  
+  <h2>Connexion</h2>
+   
+    <form method="post" action="connect/login.php">
+   
+  
+  <input type="text" name="username" id="username" placeholder="entrez votre admin" required="true">
 
-  <label for="password">Password : </label>
-  <input type="password" name="password" id="password" required="true">
+  
+  <input type="password" name="password" id="password" placeholder="entrez votre mot de passe" required="true">
 
-  <input type="submit" value="Se connecter">
-</form>
-
-<h2>S'enregistrer</h2>
-<form method="post" action="connect/enregistrement.php">
-  <label for="username">Utilisateur : </label>
-  <input type="text" name="username" id="username" required="true">
-
-  <label for="password">Password : </label>
-  <input type="password" name="password" id="password" required="true">
-
-  <input type="submit" value="s'enregistrer'">
-</form>
+  <input type="submit" id="login-btn"  value="Entrez">
+    </form>
+  
+  </div>
+</body>
+</html>

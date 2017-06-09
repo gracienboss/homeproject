@@ -1,12 +1,40 @@
 body{
-    background-color: pink;
-    ;
+   font-family: sans-serif; 
+   margin:0;
+   padding: 0;
+   background-color: #0D3E65;
 }
-table{
+h2 {
+    color:white;
+}
+
+
+table, th, td{
     border:1px black solid;
-    width:400px;
-    height: 300px;
+    border-collapse: collapse;
 }
+
+th, td {
+    padding:10px;
+    text-align: center;
+}
+
+th{
+    background-color:#a70000;
+    color:white;
+}
+
+tr:nth-child(even){
+    background-color: #e8e8e8;
+}
+tr:nth-child(odd)
+{
+    background-color: white;
+}
+
+
+
+
 .detete{
     padding-left:600px;
     padding-top:20px ;
@@ -16,7 +44,58 @@ table{
     padding-left:800px;
     margin-top: -20px;
 }
+.deconnexion{
+   margin-left:1100px;
+   margin-bottom: 30px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    border-top: 1px #57b2e6 solid;
+    
+}
+.contener{
 
-.deconnexion {
-    margin: 900px;
+    padding-top: 10px;
+    border-top: 1px #57b2e6 solid;
+}
+
+#contener{
+  /*  border-top: 1px black solid;*/
+    padding-bottom: 8px;
+    
+}
+
+ #login-btn{
+    
+    border-radius: 5px;
+    
+}
+
+           /* Query part*/
+
+@media screen and (max-width: 1231px) {
+   
+    .deconnexion{
+   margin-left:200px;
+   margin-bottom: 30px;
+  }
+  
+
+}
+@media screen and (max-width: 957px){
+
+  .detete{
+   padding-left:100px;
+   padding-top:20px ;
+}
+
+ .update{
+    padding-left:350px;
+    margin-top: -20px;
+    }
 }

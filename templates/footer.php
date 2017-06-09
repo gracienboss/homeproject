@@ -1,4 +1,4 @@
-  <footer>
+  
     <p>-- copyrighting by Gracien corporation --<br>
     -- Tous droits reservés @ --
     </p>
